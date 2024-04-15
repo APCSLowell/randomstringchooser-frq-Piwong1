@@ -2,9 +2,9 @@ import java.util.*;
 public class RandomStringChooser
 {
   /* to be implemented in part (a) */
-  private Arraylist<String> available;
+  private ArrayList<String> available;
   public RandomStringChooser(String[] list){
-  available=new Arraylist<String>();
+  available=new ArrayList<String>();
     for(int i=0;i<list.length;i++){
     available.add(list[i]);
     }
