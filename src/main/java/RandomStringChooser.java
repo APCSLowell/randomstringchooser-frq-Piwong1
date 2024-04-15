@@ -13,9 +13,9 @@ public class RandomStringChooser
   public String getNext(){
     if(available.size()<1)
       return "NONE";
-  private int choice=(int)(Math.random()*available.size());
+   int choice=(int)(Math.random()*available.size());
     private String temp=available.get(i);
-    available.remove(i);
+    available.remove(choice);
     return temp;
   }
   //Heads up! 
