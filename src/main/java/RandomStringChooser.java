@@ -14,7 +14,7 @@ public class RandomStringChooser
     if(available.size()<1)
       return "NONE";
    int choice=(int)(Math.random()*available.size());
-    return  available.remove(choice);;
+    return  available.remove(choice);
   }
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well
