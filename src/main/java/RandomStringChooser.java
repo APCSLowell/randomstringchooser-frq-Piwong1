@@ -9,6 +9,7 @@ public class RandomStringChooser
     available.add(list[i]);
     }
 
+    
   }
   public String getNext(){
     if(available.size()<1)
